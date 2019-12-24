@@ -1,10 +1,146 @@
 [
   {
-    "name": "type: feature",
-    "color": "00ff00",
-    "aliases": [
-      "enhancement",
-      "feature"
-    ]
+    "name": "accessibility",
+    "color": "fef2c0"
+  },
+  {
+    "name": "bug",
+    "color": "d93f0b"
+  },
+  {
+    "name": "can't reproduce",
+    "color": "ccf8ff"
+  },
+  {
+    "name": "cherry picked",
+    "color": "de3163"
+  },
+  {
+    "name": "design",
+    "color": "dd7a97"
+  },
+  {
+    "name": "enhancement",
+    "color": "c5def5"
+  },
+  {
+    "name": "epic",
+    "color": "c5def5"
+  },
+  {
+    "name": "feature branch 🚀",
+    "color": "af2ecc"
+  },
+  {
+    "name": "good first issue",
+    "color": "af52ad"
+  },
+  {
+    "name": "hacktoberfest",
+    "color": "000000"
+  },
+  {
+    "name": "has pull request",
+    "color": "1d76db"
+  },
+  {
+    "name": "i18n",
+    "color": "fef2c0"
+  },
+  {
+    "name": "needs cherry picking",
+    "color": "b84de2"
+  },
+  {
+    "name": "onboarding wizard",
+    "color": "fef2c0"
+  },
+  {
+    "name": "performance",
+    "color": "fef2c0"
+  },
+  {
+    "name": "priority: critical",
+    "color": "533582"
+  },
+  {
+    "name": "priority: high",
+    "color": "7f54b3"
+  },
+  {
+    "name": "priority: low",
+    "color": "af7dd1"
+  },
+  {
+    "name": "privacy",
+    "color": "fef2c0"
+  },
+  {
+    "name": "question",
+    "color": "ff69b4"
+  },
+  {
+    "name": "refactor",
+    "color": "f9d0c4"
+  },
+  {
+    "name": "status: approved",
+    "color": "0e8a16"
+  },
+  {
+    "name": "status: blocked",
+    "color": "b60205"
+  },
+  {
+    "name": "status: changelog added",
+    "color": "46db89"
+  },
+  {
+    "name": "status: in progress",
+    "color": "f5f5f5"
+  },
+  {
+    "name": "status: needs changelog",
+    "color": "eb6420"
+  },
+  {
+    "name": "status: needs docs",
+    "color": "9cfcda"
+  },
+  {
+    "name": "status: needs feedback",
+    "color": "f5f5f5"
+  },
+  {
+    "name": "status: needs review",
+    "color": "1d76db"
+  },
+  {
+    "name": "status: needs testing instructions",
+    "color": "327e91"
+  },
+  {
+    "name": "status: testing instructions added",
+    "color": "2fc45e"
+  },
+  {
+    "name": "templating",
+    "color": "fef2c0"
+  },
+  {
+    "name": "votes needed",
+    "color": "99d0e8"
+  },
+  {
+    "name": "wccom",
+    "color": "fef2c0"
+  },
+  {
+    "name": "won't fix",
+    "color": "f5f5f5"
+  },
+  {
+    "name": "wordpress",
+    "color": "991037"
   }
 ]
