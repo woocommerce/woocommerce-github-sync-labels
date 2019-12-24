@@ -18,7 +18,7 @@ if (dryRun) {
   console.log('✔️ "--dry-run" is enabled. No changes will happens in any repository.');
 }
 if (preserveLabels) {
-  console.log('✔️ "--preserve-labels" is enabled. New labels introduced directly in GitHub will be preserved');
+  console.log('✔️ "--preserve-labels" is enabled. New labels introduced directly in GitHub will be preserved.');
 }
 
 // Run labels sync for each repository.
