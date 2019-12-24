@@ -12,6 +12,7 @@ const commonLabels = JSON.parse(fs.readFileSync('./labels/commons.json', 'utf8')
 let dryRun = hasFlag('--dry-run');
 let preserveLabels = hasFlag('--preserve-labels');
 
+// Start dialog.
 console.log('Starting sync...');
 if (dryRun) {
   console.log('✔️ "--dry-run" is enabled. No changes will happens in any repository.');
@@ -20,6 +21,7 @@ if (preserveLabels) {
   console.log('✔️ "--preserve-labels" is enabled. New labels introduced directly in GitHub will be preserved');
 }
 
+// Run labels sync for each repository.
 repositories.forEach(function(repo) {
   const projectLabels = './labels/' + repo + '.json';
   let labels = commonLabels;
