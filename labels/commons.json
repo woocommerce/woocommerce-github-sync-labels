@@ -7,7 +7,10 @@
   {
     "name": "bug",
     "color": "d93f0b",
-    "description": "Issue that can be reproduced."
+    "description": "Issue that can be reproduced.",
+    "aliases": [
+      "type: bug"
+    ]
   },
   {
     "name": "can't reproduce",
@@ -17,7 +20,10 @@
   {
     "name": "cherry picked",
     "color": "de3163",
-    "description": "PR has been added to the next release."
+    "description": "PR has been added to the next release.",
+    "aliases": [
+      "cherry-pick 🍒"
+    ]
   },
   {
     "name": "design",
@@ -27,7 +33,11 @@
   {
     "name": "enhancement",
     "color": "c5def5",
-    "description": "Improvements that slightly enhance existing functionality and are fast to implement."
+    "description": "Improvements that slightly enhance existing functionality and are fast to implement.",
+    "aliases": [
+      "type: enhancement",
+      "type: feature request"
+    ]
   },
   {
     "name": "epic",
@@ -52,7 +62,10 @@
   {
     "name": "has pull request",
     "color": "1d76db",
-    "description": "Issue that has pull request."
+    "description": "Issue that has pull request.",
+    "aliases": [
+      "status: has pull request"
+    ]
   },
   {
     "name": "i18n",
@@ -97,7 +110,10 @@
   {
     "name": "question",
     "color": "ff69b4",
-    "description": "Issue pending decision (not for support requests)."
+    "description": "Issue pending decision (not for support requests).",
+    "aliases": [
+      "type: question"
+    ]
   },
   {
     "name": "refactor",
@@ -107,7 +123,10 @@
   {
     "name": "status: approved",
     "color": "0e8a16",
-    "description": "PRs that have been approved and ready to be merged."
+    "description": "PRs that have been approved and ready to be merged.",
+    "aliases": [
+      "status: ready to merge"
+    ]
   },
   {
     "name": "status: blocked",
