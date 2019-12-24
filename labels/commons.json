@@ -1,10 +1,201 @@
 [
   {
-    "name": "type: feature",
-    "color": "00ff00",
+    "name": "accessibility",
+    "color": "fef2c0",
+    "description": "Issue related to accessibility."
+  },
+  {
+    "name": "bug",
+    "color": "d93f0b",
+    "description": "Issue that can be reproduced.",
     "aliases": [
-      "enhancement",
-      "feature"
+      "type: bug"
     ]
+  },
+  {
+    "name": "can't reproduce",
+    "color": "ccf8ff",
+    "description": "Issues that can't be reproduce."
+  },
+  {
+    "name": "cherry picked",
+    "color": "de3163",
+    "description": "PR has been added to the next release.",
+    "aliases": [
+      "cherry-pick 🍒"
+    ]
+  },
+  {
+    "name": "design",
+    "color": "dd7a97",
+    "description": "Needs design feedback. [auto]"
+  },
+  {
+    "name": "enhancement",
+    "color": "c5def5",
+    "description": "Improvements that slightly enhance existing functionality and are fast to implement.",
+    "aliases": [
+      "type: enhancement",
+      "type: feature request"
+    ]
+  },
+  {
+    "name": "epic",
+    "color": "c5def5",
+    "description": "Container issue with high-level description of work that will be done in sprint."
+  },
+  {
+    "name": "feature branch 🚀",
+    "color": "af2ecc",
+    "description": "Multiple PRs will target this branch before it's merged to core."
+  },
+  {
+    "name": "good first issue",
+    "color": "af52ad",
+    "description": "Good first issue to start with (community contributions are welcome)."
+  },
+  {
+    "name": "hacktoberfest",
+    "color": "000000",
+    "description": "Small issues for those interested in participating in Hacktoberfest."
+  },
+  {
+    "name": "has pull request",
+    "color": "1d76db",
+    "description": "Issue that has pull request.",
+    "aliases": [
+      "status: has pull request"
+    ]
+  },
+  {
+    "name": "i18n",
+    "color": "fef2c0",
+    "description": "Issues related to translation."
+  },
+  {
+    "name": "needs cherry picking",
+    "color": "b84de2",
+    "description": "Commits from this PR also needs to be added to current release branch."
+  },
+  {
+    "name": "onboarding wizard",
+    "color": "fef2c0",
+    "description": "Issue related to onboarding wizard."
+  },
+  {
+    "name": "performance",
+    "color": "fef2c0",
+    "description": "Issues related to performance (code / DB / web performance)."
+  },
+  {
+    "name": "priority: critical",
+    "color": "533582",
+    "description": "The plugin or the store are unusable, it affects a significant number of customers."
+  },
+  {
+    "name": "priority: high",
+    "color": "7f54b3",
+    "description": "Important, but no one will go out of business."
+  },
+  {
+    "name": "priority: low",
+    "color": "af7dd1",
+    "description": "Nice-to-haves and niche cases."
+  },
+  {
+    "name": "privacy",
+    "color": "fef2c0",
+    "description": "GDPR / Privacy related."
+  },
+  {
+    "name": "question",
+    "color": "ff69b4",
+    "description": "Issue pending decision (not for support requests).",
+    "aliases": [
+      "type: question"
+    ]
+  },
+  {
+    "name": "refactor",
+    "color": "f9d0c4",
+    "description": "Code needs refactoring."
+  },
+  {
+    "name": "status: approved",
+    "color": "0e8a16",
+    "description": "PRs that have been approved and ready to be merged.",
+    "aliases": [
+      "status: ready to merge"
+    ]
+  },
+  {
+    "name": "status: blocked",
+    "color": "b60205",
+    "description": "Issue or PR is blocked by external factor."
+  },
+  {
+    "name": "status: changelog added",
+    "color": "46db89",
+    "description": "Mark all PRs that have their changelog entries added to readme.txt"
+  },
+  {
+    "name": "status: in progress",
+    "color": "f5f5f5",
+    "description": "This is being worked on."
+  },
+  {
+    "name": "status: needs changelog",
+    "color": "eb6420",
+    "description": "Mark all PRs that have not had their changelog entries added. [auto]"
+  },
+  {
+    "name": "status: needs docs",
+    "color": "9cfcda",
+    "description": "Needs explanation in release notes, dev blog, or documentation."
+  },
+  {
+    "name": "status: needs feedback",
+    "color": "f5f5f5",
+    "description": "Needs feedback from the author/developers."
+  },
+  {
+    "name": "status: needs review",
+    "color": "1d76db",
+    "description": "PR that needs review. [auto]"
+  },
+  {
+    "name": "status: needs testing instructions",
+    "color": "327e91",
+    "description": "PRs that have not had testing instructions added to the wiki. [auto]"
+  },
+  {
+    "name": "status: testing instructions added",
+    "color": "2fc45e",
+    "description": "PRs that has had testing instructions added to the wiki."
+  },
+  {
+    "name": "templating",
+    "color": "fef2c0",
+    "description": "Issue related to WooCommerce templates."
+  },
+  {
+    "name": "votes needed",
+    "color": "99d0e8",
+    "description": "Feature request awaiting community feedback. [auto]"
+  },
+  {
+    "name": "wccom",
+    "color": "fef2c0",
+    "description": "Issues related to communication with woocommerce.com."
+  },
+  {
+    "name": "won't fix",
+    "color": "f5f5f5",
+    "description": "Issue that will not be fixed at this time."
+  },
+  {
+    "name": "wordpress",
+    "color": "991037",
+    "description": "Upstream issue that needs to be fixed in WordPress core."
   }
 ]
