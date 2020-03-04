@@ -5,6 +5,11 @@
     "description": "Issue related to accessibility."
   },
   {
+    "name": "advanced settings",
+    "color": "ce8964",
+    "description": "Issues related to advanced settings."
+  },
+  {
     "name": "bug",
     "color": "d93f0b",
     "description": "Issue that can be reproduced.",
@@ -13,9 +18,29 @@
     ]
   },
   {
+    "name": "calculation",
+    "color": "ce8964",
+    "description": "Issues related to calculations (for example, rounding issues)."
+  },
+  {
     "name": "can't reproduce",
     "color": "ccf8ff",
     "description": "Issues that can't be reproduce."
+  },
+  {
+    "name": "cart",
+    "color": "832232",
+    "description": "Issues related to cart page."
+  },
+  {
+    "name": "category",
+    "color": "ce8964",
+    "description": "Issues related to categories."
+  },
+  {
+    "name": "checkout",
+    "color": "832232",
+    "description": "Issues related to checkout page."
   },
   {
     "name": "cherry picked",
@@ -24,6 +49,21 @@
     "aliases": [
       "cherry-pick 🍒"
     ]
+  },
+  {
+    "name": "coupon",
+    "color": "ce8964",
+    "description": "Issues related to coupons."
+  },
+  {
+    "name": "currency",
+    "color": "ce8964",
+    "description": "Issues related to currencies."
+  },
+  {
+    "name": "csv import/export",
+    "color": "ce8964",
+    "description": "Issues related to CSV import and export."
   },
   {
     "name": "design",
@@ -38,6 +78,11 @@
       "type: enhancement",
       "type: feature request"
     ]
+  },
+  {
+    "name": "email",
+    "color": "ce8964",
+    "description": "Issues related to emails."
   },
   {
     "name": "epic",
@@ -68,9 +113,24 @@
     ]
   },
   {
+    "name": "html/css",
+    "color": "ce8964",
+    "description": "Issues related to HTML/CSS."
+  },
+  {
     "name": "i18n",
     "color": "fef2c0",
     "description": "Issues related to translation."
+  },
+  {
+    "name": "mobile",
+    "color": "ce8964",
+    "description": "Issues related to how WooCommerce works on mobile devices."
+  },
+  {
+    "name": "my account",
+    "color": "832232",
+    "description": "Issues related to my account page."
   },
   {
     "name": "needs cherry picking",
@@ -78,14 +138,39 @@
     "description": "Commits from this PR also needs to be added to current release branch."
   },
   {
+    "name": "notice",
+    "color": "ce8964",
+    "description": "Issues related to notices."
+  },
+  {
     "name": "onboarding wizard",
-    "color": "fef2c0",
+    "color": "ce8964",
     "description": "Issue related to onboarding wizard."
+  },
+  {
+    "name": "order",
+    "color": "ce8964",
+    "description": "Issues related to orders."
+  },
+  {
+    "name": "payment",
+    "color": "ce8964",
+    "description": "Issues related to payments."
+  },
+  {
+    "name": "paypal",
+    "color": "ce8964",
+    "description": "Issues related to PayPal."
   },
   {
     "name": "performance",
     "color": "fef2c0",
     "description": "Issues related to performance (code / DB / web performance)."
+  },
+  {
+    "name": "permalink",
+    "color": "ce8964",
+    "description": "Issues related to permalinks."
   },
   {
     "name": "priority: critical",
@@ -108,6 +193,11 @@
     "description": "GDPR / Privacy related."
   },
   {
+    "name": "product",
+    "color": "ce8964",
+    "description": "Issues related to product or product page."
+  },
+  {
     "name": "question",
     "color": "ff69b4",
     "description": "Issue pending decision (not for support requests).",
@@ -119,6 +209,21 @@
     "name": "refactor",
     "color": "f9d0c4",
     "description": "Code needs refactoring."
+  },
+  {
+    "name": "refund",
+    "color": "ce8964",
+    "description": "Issues related to refunds."
+  },
+  {
+    "name": "shipping",
+    "color": "ce8964",
+    "description": "Issues related to shipping."
+  },
+  {
+    "name": "shop",
+    "color": "832232",
+    "description": "Issues related to shop page."
   },
   {
     "name": "status: approved",
@@ -174,9 +279,29 @@
     "description": "PRs that has had testing instructions added to the wiki."
   },
   {
+    "name": "stock",
+    "color": "ce8964",
+    "description": "Issues related to stock."
+  },
+  {
+    "name": "system status report",
+    "color": "ce8964",
+    "description": "Issues related to system status report."
+  },
+  {
+    "name": "tax",
+    "color": "ce8964",
+    "description": "Issues related to taxes."
+  },
+  {
     "name": "templating",
     "color": "fef2c0",
     "description": "Issue related to WooCommerce templates."
+  },
+  {
+    "name": "variation",
+    "color": "ce8964",
+    "description": "Issues related to product variations."
   },
   {
     "name": "votes needed",
