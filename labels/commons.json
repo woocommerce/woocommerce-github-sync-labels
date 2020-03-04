@@ -309,6 +309,11 @@
     "description": "Feature request awaiting community feedback. [auto]"
   },
   {
+    "name": "wc-cli",
+    "color": "ce8964",
+    "description": "Issues related to WooCommerce CLI."
+  },
+  {
     "name": "wccom",
     "color": "fef2c0",
     "description": "Issues related to communication with woocommerce.com."
