@@ -1,6 +1,6 @@
 {
   "name": "woocommerce-github-sync-labels",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sync labels between repositories on GitHub",
   "main": "index.js",
   "scripts": {
