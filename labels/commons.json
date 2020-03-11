@@ -27,132 +27,132 @@
   },
   {
     "name": "component: action scheduler",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to action scheduler."
   },
   {
     "name": "component: advanced settings",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to advanced settings."
   },
   {
     "name": "component: calculation",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to calculations (for example, rounding issues)."
   },
   {
     "name": "component: cart",
-    "color": "832232",
+    "color": "ff6b00",
     "description": "Issues related to cart page."
   },
   {
     "name": "component: category",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to categories."
   },
   {
     "name": "component: checkout",
-    "color": "832232",
+    "color": "ff6b00",
     "description": "Issues related to checkout page."
   },
   {
     "name": "component: coupon",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to coupons."
   },
   {
     "name": "component: currency",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to currencies."
   },
   {
     "name": "component: csv import/export",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to CSV import and export."
   },
   {
     "name": "component: email",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to emails."
   },
   {
     "name": "component: my account",
-    "color": "832232",
+    "color": "ff6b00",
     "description": "Issues related to my account page."
   },
   {
     "name": "component: notice",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to notices."
   },
   {
     "name": "component: onboarding wizard",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issue related to onboarding wizard."
   },
   {
     "name": "component: order",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to orders."
   },
   {
     "name": "component: payment",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to payments."
   },
   {
     "name": "component: paypal",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to PayPal."
   },
   {
     "name": "component: permalink",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to permalinks."
   },
   {
     "name": "component: product",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to product or product page."
   },
   {
     "name": "component: refund",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to refunds."
   },
   {
     "name": "component: shipping",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to shipping."
   },
   {
     "name": "component: shop",
-    "color": "832232",
+    "color": "ff6b00",
     "description": "Issues related to shop page."
   },
   {
     "name": "component: stock",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to stock."
   },
   {
     "name": "component: system status report",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to system status report."
   },
   {
     "name": "component: tax",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to taxes."
   },
   {
     "name": "component: variation",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to product variations."
   },
   {
     "name": "component: wc-cli",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to WooCommerce CLI."
   },
   {
@@ -199,7 +199,7 @@
   },
   {
     "name": "html/css",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to HTML/CSS."
   },
   {
@@ -209,7 +209,7 @@
   },
   {
     "name": "mobile",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to how WooCommerce works on mobile devices."
   },
   {
