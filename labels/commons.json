@@ -5,6 +5,11 @@
     "description": "Issue related to accessibility."
   },
   {
+    "name": "component: action scheduler",
+    "color": "ce8964",
+    "description": "Issues related to action scheduler."
+  },
+  {
     "name": "component: advanced settings",
     "color": "ce8964",
     "description": "Issues related to advanced settings."
