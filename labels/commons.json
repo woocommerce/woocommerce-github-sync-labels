@@ -5,11 +5,6 @@
     "description": "Issue related to accessibility."
   },
   {
-    "name": "component: advanced settings",
-    "color": "ce8964",
-    "description": "Issues related to advanced settings."
-  },
-  {
     "name": "bug",
     "color": "d93f0b",
     "description": "Issue that can be reproduced.",
@@ -18,29 +13,9 @@
     ]
   },
   {
-    "name": "component: calculation",
-    "color": "ce8964",
-    "description": "Issues related to calculations (for example, rounding issues)."
-  },
-  {
     "name": "can't reproduce",
     "color": "ccf8ff",
     "description": "Issues that can't be reproduce."
-  },
-  {
-    "name": "component: cart",
-    "color": "832232",
-    "description": "Issues related to cart page."
-  },
-  {
-    "name": "component: category",
-    "color": "ce8964",
-    "description": "Issues related to categories."
-  },
-  {
-    "name": "component: checkout",
-    "color": "832232",
-    "description": "Issues related to checkout page."
   },
   {
     "name": "cherry picked",
@@ -51,19 +26,134 @@
     ]
   },
   {
+    "name": "component: action scheduler",
+    "color": "ffea00",
+    "description": "Issues related to action scheduler."
+  },
+  {
+    "name": "component: advanced settings",
+    "color": "ffea00",
+    "description": "Issues related to advanced settings."
+  },
+  {
+    "name": "component: calculation",
+    "color": "ffea00",
+    "description": "Issues related to calculations (for example, rounding issues)."
+  },
+  {
+    "name": "component: cart",
+    "color": "ff6b00",
+    "description": "Issues related to cart page."
+  },
+  {
+    "name": "component: category",
+    "color": "ffea00",
+    "description": "Issues related to categories."
+  },
+  {
+    "name": "component: checkout",
+    "color": "ff6b00",
+    "description": "Issues related to checkout page."
+  },
+  {
     "name": "component: coupon",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to coupons."
   },
   {
     "name": "component: currency",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to currencies."
   },
   {
     "name": "component: csv import/export",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to CSV import and export."
+  },
+  {
+    "name": "component: email",
+    "color": "ffea00",
+    "description": "Issues related to emails."
+  },
+  {
+    "name": "component: my account",
+    "color": "ff6b00",
+    "description": "Issues related to my account page."
+  },
+  {
+    "name": "component: notice",
+    "color": "ffea00",
+    "description": "Issues related to notices."
+  },
+  {
+    "name": "component: onboarding wizard",
+    "color": "ffea00",
+    "description": "Issue related to onboarding wizard."
+  },
+  {
+    "name": "component: order",
+    "color": "ffea00",
+    "description": "Issues related to orders."
+  },
+  {
+    "name": "component: payment",
+    "color": "ffea00",
+    "description": "Issues related to payments."
+  },
+  {
+    "name": "component: paypal",
+    "color": "ffea00",
+    "description": "Issues related to PayPal."
+  },
+  {
+    "name": "component: permalink",
+    "color": "ffea00",
+    "description": "Issues related to permalinks."
+  },
+  {
+    "name": "component: product",
+    "color": "ffea00",
+    "description": "Issues related to product or product page."
+  },
+  {
+    "name": "component: refund",
+    "color": "ffea00",
+    "description": "Issues related to refunds."
+  },
+  {
+    "name": "component: shipping",
+    "color": "ffea00",
+    "description": "Issues related to shipping."
+  },
+  {
+    "name": "component: shop",
+    "color": "ff6b00",
+    "description": "Issues related to shop page."
+  },
+  {
+    "name": "component: stock",
+    "color": "ffea00",
+    "description": "Issues related to stock."
+  },
+  {
+    "name": "component: system status report",
+    "color": "ffea00",
+    "description": "Issues related to system status report."
+  },
+  {
+    "name": "component: tax",
+    "color": "ffea00",
+    "description": "Issues related to taxes."
+  },
+  {
+    "name": "component: variation",
+    "color": "ffea00",
+    "description": "Issues related to product variations."
+  },
+  {
+    "name": "component: wc-cli",
+    "color": "ffea00",
+    "description": "Issues related to WooCommerce CLI."
   },
   {
     "name": "design",
@@ -78,11 +168,6 @@
       "type: enhancement",
       "type: feature request"
     ]
-  },
-  {
-    "name": "component: email",
-    "color": "ce8964",
-    "description": "Issues related to emails."
   },
   {
     "name": "epic",
@@ -114,7 +199,7 @@
   },
   {
     "name": "html/css",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to HTML/CSS."
   },
   {
@@ -124,13 +209,8 @@
   },
   {
     "name": "mobile",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to how WooCommerce works on mobile devices."
-  },
-  {
-    "name": "component: my account",
-    "color": "832232",
-    "description": "Issues related to my account page."
   },
   {
     "name": "needs cherry picking",
@@ -138,39 +218,9 @@
     "description": "Commits from this PR also needs to be added to current release branch."
   },
   {
-    "name": "component: notice",
-    "color": "ce8964",
-    "description": "Issues related to notices."
-  },
-  {
-    "name": "component: onboarding wizard",
-    "color": "ce8964",
-    "description": "Issue related to onboarding wizard."
-  },
-  {
-    "name": "component: order",
-    "color": "ce8964",
-    "description": "Issues related to orders."
-  },
-  {
-    "name": "component: payment",
-    "color": "ce8964",
-    "description": "Issues related to payments."
-  },
-  {
-    "name": "component: paypal",
-    "color": "ce8964",
-    "description": "Issues related to PayPal."
-  },
-  {
     "name": "performance",
     "color": "fef2c0",
     "description": "Issues related to performance (code / DB / web performance)."
-  },
-  {
-    "name": "component: permalink",
-    "color": "ce8964",
-    "description": "Issues related to permalinks."
   },
   {
     "name": "priority: critical",
@@ -193,11 +243,6 @@
     "description": "GDPR / Privacy related."
   },
   {
-    "name": "component: product",
-    "color": "ce8964",
-    "description": "Issues related to product or product page."
-  },
-  {
     "name": "question",
     "color": "ff69b4",
     "description": "Issue pending decision (not for support requests).",
@@ -209,21 +254,6 @@
     "name": "refactor",
     "color": "f9d0c4",
     "description": "Code needs refactoring."
-  },
-  {
-    "name": "component: refund",
-    "color": "ce8964",
-    "description": "Issues related to refunds."
-  },
-  {
-    "name": "component: shipping",
-    "color": "ce8964",
-    "description": "Issues related to shipping."
-  },
-  {
-    "name": "component: shop",
-    "color": "832232",
-    "description": "Issues related to shop page."
   },
   {
     "name": "status: approved",
@@ -279,39 +309,14 @@
     "description": "PRs that has had testing instructions added to the wiki."
   },
   {
-    "name": "component: stock",
-    "color": "ce8964",
-    "description": "Issues related to stock."
-  },
-  {
-    "name": "component: system status report",
-    "color": "ce8964",
-    "description": "Issues related to system status report."
-  },
-  {
-    "name": "component: tax",
-    "color": "ce8964",
-    "description": "Issues related to taxes."
-  },
-  {
     "name": "templating",
     "color": "fef2c0",
     "description": "Issue related to WooCommerce templates."
   },
   {
-    "name": "component: variation",
-    "color": "ce8964",
-    "description": "Issues related to product variations."
-  },
-  {
     "name": "votes needed",
     "color": "99d0e8",
     "description": "Feature request awaiting community feedback. [auto]"
-  },
-  {
-    "name": "component: wc-cli",
-    "color": "ce8964",
-    "description": "Issues related to WooCommerce CLI."
   },
   {
     "name": "wccom",
