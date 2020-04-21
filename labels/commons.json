@@ -121,6 +121,11 @@
     "description": "Issues related to refunds."
   },
   {
+    "name": "component: search",
+    "color": "ffea00",
+    "description": "Issues related to search."
+  },
+  {
     "name": "component: shipping",
     "color": "ffea00",
     "description": "Issues related to shipping."
@@ -307,6 +312,11 @@
     "name": "status: testing instructions added",
     "color": "2fc45e",
     "description": "PRs that has had testing instructions added to the wiki."
+  },
+  {
+    "name": "task",
+    "color": "00ee00",
+    "description": "To-Do item for WooCommerce Core team."
   },
   {
     "name": "templating",
