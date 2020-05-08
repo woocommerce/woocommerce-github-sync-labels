@@ -156,6 +156,11 @@
     "description": "Issues related to product variations."
   },
   {
+    "name": "component: webhook",
+    "color": "ffea00",
+    "description": "Issues related to WooCommerce webhooks."
+  },
+  {
     "name": "component: wc-cli",
     "color": "ffea00",
     "description": "Issues related to WooCommerce CLI."
@@ -164,6 +169,11 @@
     "name": "design",
     "color": "dd7a97",
     "description": "Needs design feedback. [auto]"
+  },
+  {
+    "name": "E2E",
+    "color": "ee7b30",
+    "description": "Issues and PRs related to e2e tests."
   },
   {
     "name": "enhancement",
@@ -246,6 +256,11 @@
     "name": "privacy",
     "color": "fef2c0",
     "description": "GDPR / Privacy related."
+  },
+  {
+    "name": "proof of concept",
+    "color": "7f96ff",
+    "description": "PR that demonstrates some concept (not intended to be merged)."
   },
   {
     "name": "question",
