@@ -213,6 +213,11 @@
     ]
   },
   {
+    "name": "high impact",
+    "color": "fc00fc",
+    "description": "Issues that have a high user impact and need to be discussed/paid attention to."
+  },
+  {
     "name": "html/css",
     "color": "ffea00",
     "description": "Issues related to HTML/CSS."
