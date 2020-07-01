@@ -1,4 +1,5 @@
 [
+  "woocommerce/action-scheduler",
   "woocommerce/woocommerce",
   "woocommerce/woocommerce-rest-api"
 ]
