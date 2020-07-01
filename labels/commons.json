@@ -71,6 +71,14 @@
     "description": "Issues related to CSV import and export."
   },
   {
+    "name": "component: data-store",
+    "color": "ffea00",
+    "description": "Issues related to custom tables.",
+    "aliases": [
+      "type: custom-tables"
+    ]
+  },
+  {
     "name": "component: email",
     "color": "ffea00",
     "description": "Issues related to emails."
@@ -166,9 +174,25 @@
     "description": "Issues related to WooCommerce CLI."
   },
   {
+    "name": "component: wp-cli",
+    "color": "ffea00",
+    "description": "Issues related to WordPress CLI.",
+    "aliases": [
+      "WP CLI"
+    ]
+  },
+  {
     "name": "design",
     "color": "dd7a97",
     "description": "Needs design feedback. [auto]"
+  },
+  {
+    "name": "duplicate",
+    "color": "abd99d",
+    "description": "Issues that have already been filed.",
+    "aliases": [
+      "duplicate"
+    ]
   },
   {
     "name": "E2E",
@@ -209,7 +233,8 @@
     "color": "1d76db",
     "description": "Issue that has pull request.",
     "aliases": [
-      "status: has pull request"
+      "status: has pull request",
+      "hasPR"
     ]
   },
   {
@@ -240,7 +265,10 @@
   {
     "name": "performance",
     "color": "fef2c0",
-    "description": "Issues related to performance (code / DB / web performance)."
+    "description": "Issues related to performance (code / DB / web performance).",
+    "aliases": [
+      "performance"
+    ]
   },
   {
     "name": "priority: critical",
@@ -250,12 +278,18 @@
   {
     "name": "priority: high",
     "color": "7f54b3",
-    "description": "Important, but no one will go out of business."
+    "description": "Important, but no one will go out of business.",
+    "aliases": [
+      "priority:high"
+    ]
   },
   {
     "name": "priority: low",
     "color": "af7dd1",
-    "description": "Nice-to-haves and niche cases."
+    "description": "Nice-to-haves and niche cases.",
+    "aliases": [
+      "priority:low"
+    ]
   },
   {
     "name": "privacy",
@@ -291,7 +325,10 @@
   {
     "name": "status: blocked",
     "color": "b60205",
-    "description": "Issue or PR is blocked by external factor."
+    "description": "Issue or PR is blocked by external factor.",
+    "aliases": [
+      "status: blocked"
+    ]
   },
   {
     "name": "status: changelog added",
@@ -299,9 +336,20 @@
     "description": "Mark all PRs that have their changelog entries added to readme.txt"
   },
   {
+    "name": "status: has feedback",
+    "color": "307121",
+    "description": "Issues for which we requested feedback from the author and received it.",
+    "aliases": [
+      "Status: Has Feedback"
+    ]
+  },
+  {
     "name": "status: in progress",
     "color": "f5f5f5",
-    "description": "This is being worked on."
+    "description": "This is being worked on.",
+    "aliases": [
+      "Status: Work in Progress"
+    ]
   },
   {
     "name": "status: needs changelog",
@@ -311,17 +359,26 @@
   {
     "name": "status: needs docs",
     "color": "9cfcda",
-    "description": "Needs explanation in release notes, dev blog, or documentation."
+    "description": "Needs explanation in release notes, dev blog, or documentation.",
+    "aliases": [
+      "status: Docs"
+    ]
   },
   {
     "name": "status: needs feedback",
     "color": "f5f5f5",
-    "description": "Needs feedback from the author/developers."
+    "description": "Needs feedback from the author/developers.",
+    "aliases": [
+      "status: needs feedback"
+    ]
   },
   {
     "name": "status: needs review",
     "color": "1d76db",
-    "description": "PR that needs review. [auto]"
+    "description": "PR that needs review. [auto]",
+    "aliases": [
+      "Status: Needs Review"
+    ]
   },
   {
     "name": "status: needs testing instructions",
@@ -336,7 +393,10 @@
   {
     "name": "task",
     "color": "00ee00",
-    "description": "To-Do item for WooCommerce Core team."
+    "description": "To-Do item for WooCommerce Core team.",
+    "aliases": [
+      "todo 🗒️"
+    ]
   },
   {
     "name": "templating",
@@ -356,7 +416,10 @@
   {
     "name": "won't fix",
     "color": "f5f5f5",
-    "description": "Issue that will not be fixed at this time."
+    "description": "Issue that will not be fixed at this time.",
+    "aliases": [
+      "wontfix"
+    ]
   },
   {
     "name": "wordpress",
