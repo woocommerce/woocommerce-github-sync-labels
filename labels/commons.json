@@ -315,6 +315,11 @@
     "description": "Code needs refactoring."
   },
   {
+    "name": "regression",
+    "color": "ff195f",
+    "description": "Issues that have been introduced by the code change that impacted existing functionality."
+  },
+  {
     "name": "status: approved",
     "color": "0e8a16",
     "description": "PRs that have been approved and ready to be merged.",
