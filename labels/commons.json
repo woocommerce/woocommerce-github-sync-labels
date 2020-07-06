@@ -324,6 +324,7 @@
     "color": "0e8a16",
     "description": "PRs that have been approved and ready to be merged.",
     "aliases": [
+      "Status: Needs Merge",
       "status: ready to merge"
     ]
   },
@@ -366,7 +367,8 @@
     "color": "9cfcda",
     "description": "Needs explanation in release notes, dev blog, or documentation.",
     "aliases": [
-      "status: Docs"
+      "status: Docs",
+      "question"
     ]
   },
   {
@@ -374,6 +376,7 @@
     "color": "f5f5f5",
     "description": "Needs feedback from the author/developers.",
     "aliases": [
+      "bug:needs-confirmation",
       "status: needs feedback"
     ]
   },
@@ -400,6 +403,7 @@
     "color": "00ee00",
     "description": "To-Do item for WooCommerce Core team.",
     "aliases": [
+      "Housekeeping",
       "todo 🗒️"
     ]
   },
@@ -407,6 +411,11 @@
     "name": "templating",
     "color": "fef2c0",
     "description": "Issue related to WooCommerce templates."
+  },
+  {
+    "name": "unit test",
+    "color": "ee7b30",
+    "description": "Issue related to unit tests or PRs that contain the changes for which unit tests need to be added."
   },
   {
     "name": "votes needed",
