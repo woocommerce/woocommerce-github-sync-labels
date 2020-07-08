@@ -399,6 +399,14 @@
     "description": "PRs that has had testing instructions added to the wiki."
   },
   {
+    "name": "status: needs unit test",
+    "color": "ee7b30",
+    "description": "PRs that contain the changes for which unit tests need to be added.",
+    "aliases": [
+      "Unit Tests"
+    ]
+  },
+  {
     "name": "task",
     "color": "00ee00",
     "description": "To-Do item for WooCommerce Core team.",
@@ -411,11 +419,6 @@
     "name": "templating",
     "color": "fef2c0",
     "description": "Issue related to WooCommerce templates."
-  },
-  {
-    "name": "unit test",
-    "color": "ee7b30",
-    "description": "Issue related to unit tests or PRs that contain the changes for which unit tests need to be added."
   },
   {
     "name": "votes needed",
