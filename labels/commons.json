@@ -5,11 +5,6 @@
     "description": "Issue related to accessibility."
   },
   {
-    "name": "component: advanced settings",
-    "color": "ce8964",
-    "description": "Issues related to advanced settings."
-  },
-  {
     "name": "bug",
     "color": "d93f0b",
     "description": "Issue that can be reproduced.",
@@ -18,29 +13,9 @@
     ]
   },
   {
-    "name": "component: calculation",
-    "color": "ce8964",
-    "description": "Issues related to calculations (for example, rounding issues)."
-  },
-  {
     "name": "can't reproduce",
     "color": "ccf8ff",
     "description": "Issues that can't be reproduce."
-  },
-  {
-    "name": "component: cart",
-    "color": "832232",
-    "description": "Issues related to cart page."
-  },
-  {
-    "name": "component: category",
-    "color": "ce8964",
-    "description": "Issues related to categories."
-  },
-  {
-    "name": "component: checkout",
-    "color": "832232",
-    "description": "Issues related to checkout page."
   },
   {
     "name": "cherry picked",
@@ -51,24 +26,178 @@
     ]
   },
   {
+    "name": "component: action scheduler",
+    "color": "ffea00",
+    "description": "Issues related to action scheduler."
+  },
+  {
+    "name": "component: advanced settings",
+    "color": "ffea00",
+    "description": "Issues related to advanced settings."
+  },
+  {
+    "name": "component: calculation",
+    "color": "ffea00",
+    "description": "Issues related to calculations (for example, rounding issues)."
+  },
+  {
+    "name": "component: cart",
+    "color": "ff6b00",
+    "description": "Issues related to cart page."
+  },
+  {
+    "name": "component: category",
+    "color": "ffea00",
+    "description": "Issues related to categories."
+  },
+  {
+    "name": "component: checkout",
+    "color": "ff6b00",
+    "description": "Issues related to checkout page."
+  },
+  {
     "name": "component: coupon",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to coupons."
   },
   {
     "name": "component: currency",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to currencies."
   },
   {
     "name": "component: csv import/export",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to CSV import and export."
+  },
+  {
+    "name": "component: data-store",
+    "color": "ffea00",
+    "description": "Issues related to custom tables.",
+    "aliases": [
+      "type: custom-tables"
+    ]
+  },
+  {
+    "name": "component: email",
+    "color": "ffea00",
+    "description": "Issues related to emails."
+  },
+  {
+    "name": "component: my account",
+    "color": "ff6b00",
+    "description": "Issues related to my account page."
+  },
+  {
+    "name": "component: notice",
+    "color": "ffea00",
+    "description": "Issues related to notices."
+  },
+  {
+    "name": "component: onboarding wizard",
+    "color": "ffea00",
+    "description": "Issue related to onboarding wizard."
+  },
+  {
+    "name": "component: order",
+    "color": "ffea00",
+    "description": "Issues related to orders."
+  },
+  {
+    "name": "component: payment",
+    "color": "ffea00",
+    "description": "Issues related to payments."
+  },
+  {
+    "name": "component: paypal",
+    "color": "ffea00",
+    "description": "Issues related to PayPal."
+  },
+  {
+    "name": "component: permalink",
+    "color": "ffea00",
+    "description": "Issues related to permalinks."
+  },
+  {
+    "name": "component: product",
+    "color": "ffea00",
+    "description": "Issues related to product or product page."
+  },
+  {
+    "name": "component: refund",
+    "color": "ffea00",
+    "description": "Issues related to refunds."
+  },
+  {
+    "name": "component: search",
+    "color": "ffea00",
+    "description": "Issues related to search."
+  },
+  {
+    "name": "component: shipping",
+    "color": "ffea00",
+    "description": "Issues related to shipping."
+  },
+  {
+    "name": "component: shop",
+    "color": "ff6b00",
+    "description": "Issues related to shop page."
+  },
+  {
+    "name": "component: stock",
+    "color": "ffea00",
+    "description": "Issues related to stock."
+  },
+  {
+    "name": "component: system status report",
+    "color": "ffea00",
+    "description": "Issues related to system status report."
+  },
+  {
+    "name": "component: tax",
+    "color": "ffea00",
+    "description": "Issues related to taxes."
+  },
+  {
+    "name": "component: variation",
+    "color": "ffea00",
+    "description": "Issues related to product variations."
+  },
+  {
+    "name": "component: webhook",
+    "color": "ffea00",
+    "description": "Issues related to WooCommerce webhooks."
+  },
+  {
+    "name": "component: wc-cli",
+    "color": "ffea00",
+    "description": "Issues related to WooCommerce CLI."
+  },
+  {
+    "name": "component: wp-cli",
+    "color": "ffea00",
+    "description": "Issues related to WordPress CLI.",
+    "aliases": [
+      "WP CLI"
+    ]
   },
   {
     "name": "design",
     "color": "dd7a97",
     "description": "Needs design feedback. [auto]"
+  },
+  {
+    "name": "duplicate",
+    "color": "abd99d",
+    "description": "Issues that have already been filed.",
+    "aliases": [
+      "duplicate"
+    ]
+  },
+  {
+    "name": "E2E",
+    "color": "ee7b30",
+    "description": "Issues and PRs related to e2e tests."
   },
   {
     "name": "enhancement",
@@ -78,11 +207,6 @@
       "type: enhancement",
       "type: feature request"
     ]
-  },
-  {
-    "name": "component: email",
-    "color": "ce8964",
-    "description": "Issues related to emails."
   },
   {
     "name": "epic",
@@ -109,12 +233,18 @@
     "color": "1d76db",
     "description": "Issue that has pull request.",
     "aliases": [
-      "status: has pull request"
+      "status: has pull request",
+      "hasPR"
     ]
   },
   {
+    "name": "high impact",
+    "color": "fc00fc",
+    "description": "Issues that have a high user impact and need to be discussed/paid attention to."
+  },
+  {
     "name": "html/css",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to HTML/CSS."
   },
   {
@@ -124,13 +254,8 @@
   },
   {
     "name": "mobile",
-    "color": "ce8964",
+    "color": "ffea00",
     "description": "Issues related to how WooCommerce works on mobile devices."
-  },
-  {
-    "name": "component: my account",
-    "color": "832232",
-    "description": "Issues related to my account page."
   },
   {
     "name": "needs cherry picking",
@@ -138,39 +263,12 @@
     "description": "Commits from this PR also needs to be added to current release branch."
   },
   {
-    "name": "component: notice",
-    "color": "ce8964",
-    "description": "Issues related to notices."
-  },
-  {
-    "name": "component: onboarding wizard",
-    "color": "ce8964",
-    "description": "Issue related to onboarding wizard."
-  },
-  {
-    "name": "component: order",
-    "color": "ce8964",
-    "description": "Issues related to orders."
-  },
-  {
-    "name": "component: payment",
-    "color": "ce8964",
-    "description": "Issues related to payments."
-  },
-  {
-    "name": "component: paypal",
-    "color": "ce8964",
-    "description": "Issues related to PayPal."
-  },
-  {
     "name": "performance",
     "color": "fef2c0",
-    "description": "Issues related to performance (code / DB / web performance)."
-  },
-  {
-    "name": "component: permalink",
-    "color": "ce8964",
-    "description": "Issues related to permalinks."
+    "description": "Issues related to performance (code / DB / web performance).",
+    "aliases": [
+      "performance"
+    ]
   },
   {
     "name": "priority: critical",
@@ -180,12 +278,18 @@
   {
     "name": "priority: high",
     "color": "7f54b3",
-    "description": "Important, but no one will go out of business."
+    "description": "Important, but no one will go out of business.",
+    "aliases": [
+      "priority:high"
+    ]
   },
   {
     "name": "priority: low",
     "color": "af7dd1",
-    "description": "Nice-to-haves and niche cases."
+    "description": "Nice-to-haves and niche cases.",
+    "aliases": [
+      "priority:low"
+    ]
   },
   {
     "name": "privacy",
@@ -193,9 +297,9 @@
     "description": "GDPR / Privacy related."
   },
   {
-    "name": "component: product",
-    "color": "ce8964",
-    "description": "Issues related to product or product page."
+    "name": "proof of concept",
+    "color": "7f96ff",
+    "description": "PR that demonstrates some concept (not intended to be merged)."
   },
   {
     "name": "question",
@@ -211,32 +315,26 @@
     "description": "Code needs refactoring."
   },
   {
-    "name": "component: refund",
-    "color": "ce8964",
-    "description": "Issues related to refunds."
-  },
-  {
-    "name": "component: shipping",
-    "color": "ce8964",
-    "description": "Issues related to shipping."
-  },
-  {
-    "name": "component: shop",
-    "color": "832232",
-    "description": "Issues related to shop page."
+    "name": "regression",
+    "color": "ff195f",
+    "description": "Issues that have been introduced by the code change that impacted existing functionality."
   },
   {
     "name": "status: approved",
     "color": "0e8a16",
     "description": "PRs that have been approved and ready to be merged.",
     "aliases": [
+      "Status: Needs Merge",
       "status: ready to merge"
     ]
   },
   {
     "name": "status: blocked",
     "color": "b60205",
-    "description": "Issue or PR is blocked by external factor."
+    "description": "Issue or PR is blocked by external factor.",
+    "aliases": [
+      "status: blocked"
+    ]
   },
   {
     "name": "status: changelog added",
@@ -244,9 +342,20 @@
     "description": "Mark all PRs that have their changelog entries added to readme.txt"
   },
   {
+    "name": "status: has feedback",
+    "color": "307121",
+    "description": "Issues for which we requested feedback from the author and received it.",
+    "aliases": [
+      "Status: Has Feedback"
+    ]
+  },
+  {
     "name": "status: in progress",
     "color": "f5f5f5",
-    "description": "This is being worked on."
+    "description": "This is being worked on.",
+    "aliases": [
+      "Status: Work in Progress"
+    ]
   },
   {
     "name": "status: needs changelog",
@@ -256,17 +365,28 @@
   {
     "name": "status: needs docs",
     "color": "9cfcda",
-    "description": "Needs explanation in release notes, dev blog, or documentation."
+    "description": "Needs explanation in release notes, dev blog, or documentation.",
+    "aliases": [
+      "status: Docs",
+      "question"
+    ]
   },
   {
     "name": "status: needs feedback",
     "color": "f5f5f5",
-    "description": "Needs feedback from the author/developers."
+    "description": "Needs feedback from the author/developers.",
+    "aliases": [
+      "bug:needs-confirmation",
+      "status: needs feedback"
+    ]
   },
   {
     "name": "status: needs review",
     "color": "1d76db",
-    "description": "PR that needs review. [auto]"
+    "description": "PR that needs review. [auto]",
+    "aliases": [
+      "Status: Needs Review"
+    ]
   },
   {
     "name": "status: needs testing instructions",
@@ -279,19 +399,21 @@
     "description": "PRs that has had testing instructions added to the wiki."
   },
   {
-    "name": "component: stock",
-    "color": "ce8964",
-    "description": "Issues related to stock."
+    "name": "status: needs unit test",
+    "color": "ee7b30",
+    "description": "PRs that contain the changes for which unit tests need to be added.",
+    "aliases": [
+      "Unit Tests"
+    ]
   },
   {
-    "name": "component: system status report",
-    "color": "ce8964",
-    "description": "Issues related to system status report."
-  },
-  {
-    "name": "component: tax",
-    "color": "ce8964",
-    "description": "Issues related to taxes."
+    "name": "task",
+    "color": "00ee00",
+    "description": "To-Do item for WooCommerce Core team.",
+    "aliases": [
+      "Housekeeping",
+      "todo 🗒️"
+    ]
   },
   {
     "name": "templating",
@@ -299,19 +421,9 @@
     "description": "Issue related to WooCommerce templates."
   },
   {
-    "name": "component: variation",
-    "color": "ce8964",
-    "description": "Issues related to product variations."
-  },
-  {
     "name": "votes needed",
     "color": "99d0e8",
     "description": "Feature request awaiting community feedback. [auto]"
-  },
-  {
-    "name": "component: wc-cli",
-    "color": "ce8964",
-    "description": "Issues related to WooCommerce CLI."
   },
   {
     "name": "wccom",
@@ -319,9 +431,17 @@
     "description": "Issues related to communication with woocommerce.com."
   },
   {
+    "name": "wc rest api",
+    "color": "1ccad8",
+    "description": "Issues related to WooCommerce REST API."
+  },
+  {
     "name": "won't fix",
     "color": "f5f5f5",
-    "description": "Issue that will not be fixed at this time."
+    "description": "Issue that will not be fixed at this time.",
+    "aliases": [
+      "wontfix"
+    ]
   },
   {
     "name": "wordpress",
