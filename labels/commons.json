@@ -431,6 +431,11 @@
     "description": "Issues related to communication with woocommerce.com."
   },
   {
+    "name": "wc rest api",
+    "color": "1ccad8",
+    "description": "Issues related to WooCommerce REST API."
+  },
+  {
     "name": "won't fix",
     "color": "f5f5f5",
     "description": "Issue that will not be fixed at this time.",
