@@ -365,7 +365,7 @@
   {
     "name": "status: needs developer feedback",
     "color": "04e824",
-    "description": "Issues that need feedback of one of the WooCommerce Core developers."
+    "description": "Issues that need feedback from one of the WooCommerce Core developers."
   },
   {
     "name": "status: needs docs",
