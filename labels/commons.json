@@ -363,6 +363,11 @@
     "description": "Mark all PRs that have not had their changelog entries added. [auto]"
   },
   {
+    "name": "status: needs developer feedback",
+    "color": "04e824",
+    "description": "Issues that need feedback from one of the WooCommerce Core developers."
+  },
+  {
     "name": "status: needs docs",
     "color": "9cfcda",
     "description": "Needs explanation in release notes, dev blog, or documentation.",
@@ -405,6 +410,11 @@
     "aliases": [
       "Unit Tests"
     ]
+  },
+  {
+    "name": "support request",
+    "color": "ba2c73",
+    "description": "Issues submitted that are not bugs or enhancements but support requests (both dev and non-dev)."
   },
   {
     "name": "task",
