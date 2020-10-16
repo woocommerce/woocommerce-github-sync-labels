@@ -406,14 +406,6 @@
     ]
   },
   {
-    "name": "status: needs review",
-    "color": "1d76db",
-    "description": "PR that needs review. [auto]",
-    "aliases": [
-      "Status: Needs Review"
-    ]
-  },
-  {
     "name": "status: needs testing instructions",
     "color": "327e91",
     "description": "PRs that have not had testing instructions added to the wiki. [auto]"
