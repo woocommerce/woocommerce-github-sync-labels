@@ -271,6 +271,26 @@
     ]
   },
   {
+    "name": "package: api",
+    "color": "ea3788",
+    "description": "Issues related to @woocommerce/api package."
+  },
+  {
+    "name": "package: e2e-core-tests",
+    "color": "ea3788",
+    "description": "Issues related to @woocommerce/e2e-core-tests package."
+  },
+  {
+    "name": "package: e2e-environment",
+    "color": "ea3788",
+    "description": "Issues related to @woocommerce/e2e-environment package."
+  },
+  {
+    "name": "package: e2e-utils",
+    "color": "ea3788",
+    "description": "Issues related to @woocommerce/e2e-utils package."
+  },
+  {
     "name": "priority: critical",
     "color": "533582",
     "description": "The plugin or the store are unusable, it affects a significant number of customers."
@@ -386,14 +406,6 @@
     ]
   },
   {
-    "name": "status: needs review",
-    "color": "1d76db",
-    "description": "PR that needs review. [auto]",
-    "aliases": [
-      "Status: Needs Review"
-    ]
-  },
-  {
     "name": "status: needs testing instructions",
     "color": "327e91",
     "description": "PRs that have not had testing instructions added to the wiki. [auto]"
@@ -429,6 +441,11 @@
     "name": "templating",
     "color": "fef2c0",
     "description": "Issue related to WooCommerce templates."
+  },
+  {
+    "name": "tools",
+    "color": "b0228c",
+    "description": "To-Do item for WooCommerce Tools team."
   },
   {
     "name": "votes needed",
