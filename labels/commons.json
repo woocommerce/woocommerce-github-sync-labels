@@ -392,8 +392,7 @@
     "color": "9cfcda",
     "description": "Needs explanation in release notes, dev blog, or documentation.",
     "aliases": [
-      "status: Docs",
-      "question"
+      "status: Docs"
     ]
   },
   {
