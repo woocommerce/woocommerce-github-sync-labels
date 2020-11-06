@@ -272,22 +272,22 @@
   },
   {
     "name": "package: api",
-    "color": "ea3788",
+    "color": "dd3388",
     "description": "Issues related to @woocommerce/api package."
   },
   {
     "name": "package: e2e-core-tests",
-    "color": "ea3788",
+    "color": "dd3388",
     "description": "Issues related to @woocommerce/e2e-core-tests package."
   },
   {
     "name": "package: e2e-environment",
-    "color": "ea3788",
+    "color": "dd3388",
     "description": "Issues related to @woocommerce/e2e-environment package."
   },
   {
     "name": "package: e2e-utils",
-    "color": "ea3788",
+    "color": "dd3388",
     "description": "Issues related to @woocommerce/e2e-utils package."
   },
   {
