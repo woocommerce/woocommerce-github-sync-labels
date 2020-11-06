@@ -272,22 +272,22 @@
   },
   {
     "name": "package: api",
-    "color": "ea3788",
+    "color": "dd3388",
     "description": "Issues related to @woocommerce/api package."
   },
   {
     "name": "package: e2e-core-tests",
-    "color": "ea3788",
+    "color": "dd3388",
     "description": "Issues related to @woocommerce/e2e-core-tests package."
   },
   {
     "name": "package: e2e-environment",
-    "color": "ea3788",
+    "color": "dd3388",
     "description": "Issues related to @woocommerce/e2e-environment package."
   },
   {
     "name": "package: e2e-utils",
-    "color": "ea3788",
+    "color": "dd3388",
     "description": "Issues related to @woocommerce/e2e-utils package."
   },
   {
@@ -320,14 +320,6 @@
     "name": "proof of concept",
     "color": "7f96ff",
     "description": "PR that demonstrates some concept (not intended to be merged)."
-  },
-  {
-    "name": "question",
-    "color": "ff69b4",
-    "description": "Issue pending decision (not for support requests).",
-    "aliases": [
-      "type: question"
-    ]
   },
   {
     "name": "refactor",
@@ -388,12 +380,20 @@
     "description": "Issues that need feedback from one of the WooCommerce Core developers."
   },
   {
+    "name": "status: needs discussion",
+    "color": "04e824",
+    "description": "Issue that either needs discussion or pending decision (not for support requests).",
+    "aliases": [
+      "type: question",
+      "question"
+    ]
+  },
+  {
     "name": "status: needs docs",
     "color": "9cfcda",
     "description": "Needs explanation in release notes, dev blog, or documentation.",
     "aliases": [
-      "status: Docs",
-      "question"
+      "status: Docs"
     ]
   },
   {
