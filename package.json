@@ -14,8 +14,8 @@
   "author": "Automattic",
   "license": "GPL-3.0+",
   "dependencies": {
+    "command-line-args": "^5.1.1",
     "filendir": "2.0.0",
-    "github-label-sync": "2.0.0",
-    "has-flag": "4.0.0"
+    "github-label-sync": "2.0.0"
   }
 }
