@@ -1,4 +1,8 @@
 [
+  "Automattic/woocommerce-extension-compat-checker",
   "woocommerce/action-scheduler",
+  "woocommerce/wc-smooth-generator",
+  "woocommerce/woocommerce-beta-tester",
+  "woocommerce/woorelease",
   "woocommerce/woocommerce"
 ]
