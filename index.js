@@ -1,28 +1,48 @@
 const githubLabelSync = require('github-label-sync');
 const fs = require('fs');
-const hasFlag = require('has-flag');
-const filendir = require('filendir')
+const filendir = require('filendir');
+const commandLineArgs = require('command-line-args');
+
+// Define possible command line options.
+const cmdLineOptions = [
+  {
+    name: 'dry-run',
+    type: Boolean
+  },
+  {
+    name: 'preserve-labels',
+    type: Boolean
+  },
+  {
+    name: 'repo',
+    type: String,
+    multiple: true
+  }
+];
 
 // Load config, repositories list and common labels.
+const cmdOptions = commandLineArgs( cmdLineOptions );
 const config = JSON.parse(fs.readFileSync('./config.json', 'utf8'));
-const repositories = JSON.parse(fs.readFileSync('./repositories.json', 'utf8'));
+const repositories = cmdOptions.repo || JSON.parse(fs.readFileSync('./repositories.json', 'utf8'));
 const commonLabels = JSON.parse(fs.readFileSync('./labels/commons.json', 'utf8'));
 
 // Set command line args.
-let dryRun = hasFlag('--dry-run');
-let preserveLabels = hasFlag('--preserve-labels');
+let dryRun = cmdOptions['dry-run'] || false;
+let preserveLabels = cmdOptions['preserve-labels'] || false;
 
 // Start dialog.
-console.log('Starting sync...');
+console.log('\nStarting sync...');
 if (dryRun) {
-  console.log('✔️ "--dry-run" is enabled. No changes will happens in any repository.');
+  console.log('✔️ "--dry-run" is enabled. No changes will happen in any repository.');
 }
 if (preserveLabels) {
   console.log('✔️ "--preserve-labels" is enabled. New labels introduced directly in GitHub will be preserved.');
 }
 
+console.log( '\nRepositories:' );
 // Run labels sync for each repository.
 repositories.forEach(function(repo) {
+  console.log( '  -' + repo );
   const projectLabels = './labels/' + repo + '.json';
   let labels = commonLabels;
 

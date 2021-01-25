@@ -30,6 +30,7 @@ For more details about GitHub acess tokens, check ["Creating a personal access t
 |---------------------|------------------------------------------------------------|
 | `--dry-run`         | Test mode, no changes will happens in any repository       |
 | `--preserve-labels` | New labels introduced directly in GitHub will be preserved |
+| `--repo`            | Sync to this repository. Multiple repositories supported.    |
 
 ## Examples
 
@@ -39,10 +40,16 @@ For more details about GitHub acess tokens, check ["Creating a personal access t
 npm start
 ```
 
-**Test mode (already runs with `--dry-run`)**
+**Test mode (already runs with `--dry-run`):**
 
 ```bash
 npm test
+```
+
+**With Options:**
+
+```bash
+npm start -- --dry-run --preserve-labels --repo organization/repository1 --repo organization/repository2
 ```
 
 ## Changelog
