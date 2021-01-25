@@ -30,7 +30,7 @@ For more details about GitHub acess tokens, check ["Creating a personal access t
 |---------------------|------------------------------------------------------------|
 | `--dry-run`         | Test mode, no changes will happens in any repository       |
 | `--preserve-labels` | New labels introduced directly in GitHub will be preserved |
-| `--repo`            | Sync to this repository. Multiple repositories supported.
+| `--repo`            | Sync to this repository. Multiple repositories supported.    |
 
 ## Examples
 
