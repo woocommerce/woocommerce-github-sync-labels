@@ -445,7 +445,7 @@
   {
     "name": "tools",
     "color": "b0228c",
-    "description": "To-Do item for WooCommerce Tools team."
+    "description": "GitHub action or other similar internal tooling-style item."
   },
   {
     "name": "votes needed",
